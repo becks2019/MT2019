@@ -247,6 +247,7 @@ GameObject:
   m_Component:
   - component: {fileID: 104861978}
   - component: {fileID: 104861977}
+  - component: {fileID: 104861979}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -265,7 +266,7 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 2
+  m_Height: 4
   m_Radius: 0.5
   m_SlopeLimit: 45
   m_StepOffset: 0.3
@@ -280,13 +281,28 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 104861976}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 140.2, y: 21.01, z: 511.68}
+  m_LocalPosition: {x: 905, y: 22, z: 340}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1108764695}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &104861979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 104861976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e7c62423b032b2429f6e55e55f501b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 104861977}
+  speed: 30
+  gravity: -9.81
 --- !u!1 &143853999
 GameObject:
   m_ObjectHideFlags: 0
@@ -1025,6 +1041,7 @@ GameObject:
   - component: {fileID: 611726699}
   - component: {fileID: 611726701}
   - component: {fileID: 611726700}
+  - component: {fileID: 611726702}
   m_Layer: 0
   m_Name: Terrain_(500.0, 0.0, 500.0)
   m_TagString: Untagged
@@ -1089,6 +1106,48 @@ Terrain:
   m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
   m_GroupingID: 0
   m_AllowAutoConnect: 1
+--- !u!114 &611726702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 611726698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 910771039, guid: f56d46228aee4734f9114056c53bb57e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  surfacevecs: []
+  tdataFloat: []
+  terrainData: {fileID: 15600000, guid: 8d0a98884ebaa4908972c2dda0219b62, type: 2}
+  xStart: 0
+  zStart: 0
+  roadSurface: {fileID: 0}
+  surfaceMesh: {fileID: 0}
+  surfaceCollider: {fileID: 0}
+  terrainDataStored: []
+  terrainChanges: []
+  terrainTrees: []
+  detailInstances: []
+  detailInstanceStarts: 
+  surfaceObjects: []
+  terrainTestPoints: []
+  splatData: []
+  addedTrees: []
+  terrainHeightsBackup: []
+  terrainTreesBackup: []
+  terrainDetailBackup: []
+  terrainSplatBackup: []
+  detailInstanceStartsBackUp: 
+  heightmapFlag: 0
+  splatmapFlag: 0
+  treeFlag: 0
+  detailFlag: 0
+  terrainDone: 0
+  backupFlagNotification: 0
+  backupObject: {fileID: 0}
+  terrain: {fileID: 0}
 --- !u!4 &658618352 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: e4bee41dab8ddc84fb6e0d6221e8226e,
@@ -1440,6 +1499,7 @@ GameObject:
   - component: {fileID: 808652468}
   - component: {fileID: 808652470}
   - component: {fileID: 808652469}
+  - component: {fileID: 808652471}
   m_Layer: 0
   m_Name: Terrain_(500.0, 0.0, 1000.0)
   m_TagString: Untagged
@@ -1504,6 +1564,48 @@ Terrain:
   m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
   m_GroupingID: 0
   m_AllowAutoConnect: 1
+--- !u!114 &808652471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 808652467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 910771039, guid: f56d46228aee4734f9114056c53bb57e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  surfacevecs: []
+  tdataFloat: []
+  terrainData: {fileID: 15600000, guid: f01439fac935f44b18fc1612d9bbaa43, type: 2}
+  xStart: 0
+  zStart: 0
+  roadSurface: {fileID: 0}
+  surfaceMesh: {fileID: 0}
+  surfaceCollider: {fileID: 0}
+  terrainDataStored: []
+  terrainChanges: []
+  terrainTrees: []
+  detailInstances: []
+  detailInstanceStarts: 
+  surfaceObjects: []
+  terrainTestPoints: []
+  splatData: []
+  addedTrees: []
+  terrainHeightsBackup: []
+  terrainTreesBackup: []
+  terrainDetailBackup: []
+  terrainSplatBackup: []
+  detailInstanceStartsBackUp: 
+  heightmapFlag: 0
+  splatmapFlag: 0
+  treeFlag: 0
+  detailFlag: 0
+  terrainDone: 0
+  backupFlagNotification: 0
+  backupObject: {fileID: 0}
+  terrain: {fileID: 0}
 --- !u!1001 &836322541
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1827,6 +1929,7 @@ GameObject:
   - component: {fileID: 953485206}
   - component: {fileID: 953485208}
   - component: {fileID: 953485207}
+  - component: {fileID: 953485209}
   m_Layer: 0
   m_Name: Terrain_(0.0, 0.0, 500.0)
   m_TagString: Untagged
@@ -1891,6 +1994,48 @@ Terrain:
   m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
   m_GroupingID: 0
   m_AllowAutoConnect: 1
+--- !u!114 &953485209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 953485205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 910771039, guid: f56d46228aee4734f9114056c53bb57e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  surfacevecs: []
+  tdataFloat: []
+  terrainData: {fileID: 15600000, guid: 55b449ae443264ce3997d70d09433d16, type: 2}
+  xStart: 0
+  zStart: 0
+  roadSurface: {fileID: 0}
+  surfaceMesh: {fileID: 0}
+  surfaceCollider: {fileID: 0}
+  terrainDataStored: []
+  terrainChanges: []
+  terrainTrees: []
+  detailInstances: []
+  detailInstanceStarts: 
+  surfaceObjects: []
+  terrainTestPoints: []
+  splatData: []
+  addedTrees: []
+  terrainHeightsBackup: []
+  terrainTreesBackup: []
+  terrainDetailBackup: []
+  terrainSplatBackup: []
+  detailInstanceStartsBackUp: 
+  heightmapFlag: 0
+  splatmapFlag: 0
+  treeFlag: 0
+  detailFlag: 0
+  terrainDone: 0
+  backupFlagNotification: 0
+  backupObject: {fileID: 0}
+  terrain: {fileID: 0}
 --- !u!1001 &979437149
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2167,7 +2312,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 500
+  far clip plane: 1000
   field of view: 8.6569395
   orthographic: 0
   orthographic size: 5
@@ -2194,7 +2339,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1108764692}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 1.94, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 500732890}
@@ -2213,6 +2358,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbf3c93a61dfd4e39bc58b7770bdfa59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mouseSensitivity: 100
+  playerBody: {fileID: 104861978}
 --- !u!1 &1117347168
 GameObject:
   m_ObjectHideFlags: 0
@@ -2502,6 +2649,7 @@ GameObject:
   - component: {fileID: 1318422010}
   - component: {fileID: 1318422012}
   - component: {fileID: 1318422011}
+  - component: {fileID: 1318422013}
   m_Layer: 0
   m_Name: Terrain_(0.0, 0.0, 1000.0)
   m_TagString: Untagged
@@ -2566,6 +2714,48 @@ Terrain:
   m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
   m_GroupingID: 0
   m_AllowAutoConnect: 1
+--- !u!114 &1318422013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318422009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 910771039, guid: f56d46228aee4734f9114056c53bb57e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  surfacevecs: []
+  tdataFloat: []
+  terrainData: {fileID: 15600000, guid: c7d7e342009204337b476dc16176df6c, type: 2}
+  xStart: 0
+  zStart: 0
+  roadSurface: {fileID: 0}
+  surfaceMesh: {fileID: 0}
+  surfaceCollider: {fileID: 0}
+  terrainDataStored: []
+  terrainChanges: []
+  terrainTrees: []
+  detailInstances: []
+  detailInstanceStarts: 
+  surfaceObjects: []
+  terrainTestPoints: []
+  splatData: []
+  addedTrees: []
+  terrainHeightsBackup: []
+  terrainTreesBackup: []
+  terrainDetailBackup: []
+  terrainSplatBackup: []
+  detailInstanceStartsBackUp: 
+  heightmapFlag: 0
+  splatmapFlag: 0
+  treeFlag: 0
+  detailFlag: 0
+  terrainDone: 0
+  backupFlagNotification: 0
+  backupObject: {fileID: 0}
+  terrain: {fileID: 0}
 --- !u!1001 &1347309508
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2857,13 +3047,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1505725664}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 895, y: 881, z: 252}
+  m_LocalRotation: {x: 0.56034243, y: -0.2834216, z: 0.124714084, w: 0.7682024}
+  m_LocalPosition: {x: 503, y: 577, z: -35}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 68.687004, y: -54.440002, z: -20.286001}
 --- !u!1001 &1514790383
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3063,6 +3253,7 @@ GameObject:
   - component: {fileID: 1607582687}
   - component: {fileID: 1607582689}
   - component: {fileID: 1607582688}
+  - component: {fileID: 1607582690}
   m_Layer: 0
   m_Name: Terrain_0_0_8563ea5d-eda7-499c-a240-ec2aabe177ce
   m_TagString: Untagged
@@ -3127,6 +3318,48 @@ Terrain:
   m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
   m_GroupingID: 0
   m_AllowAutoConnect: 1
+--- !u!114 &1607582690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1607582686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 910771039, guid: f56d46228aee4734f9114056c53bb57e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  surfacevecs: []
+  tdataFloat: []
+  terrainData: {fileID: 15600000, guid: 14a84da28e7c0448789025ac2d40bb4c, type: 2}
+  xStart: 0
+  zStart: 0
+  roadSurface: {fileID: 0}
+  surfaceMesh: {fileID: 0}
+  surfaceCollider: {fileID: 0}
+  terrainDataStored: []
+  terrainChanges: []
+  terrainTrees: []
+  detailInstances: []
+  detailInstanceStarts: 
+  surfaceObjects: []
+  terrainTestPoints: []
+  splatData: []
+  addedTrees: []
+  terrainHeightsBackup: []
+  terrainTreesBackup: []
+  terrainDetailBackup: []
+  terrainSplatBackup: []
+  detailInstanceStartsBackUp: 
+  heightmapFlag: 0
+  splatmapFlag: 0
+  treeFlag: 0
+  detailFlag: 0
+  terrainDone: 0
+  backupFlagNotification: 0
+  backupObject: {fileID: 0}
+  terrain: {fileID: 0}
 --- !u!4 &1672899781 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: e4bee41dab8ddc84fb6e0d6221e8226e,
@@ -3739,7 +3972,7 @@ MonoBehaviour:
   selectedRoadRightInnerOffset: 0
   selectedCrossingMaterial: 0
   crossingTextureInfoIndex: 0
-  handleSelection: 1
+  handleSelection: 2
   positionHandleSelection: 0
   markerDirXZ: 0
   defaultCrossing: {fileID: 0}
@@ -3769,26 +4002,38 @@ MonoBehaviour:
   osmTerrainBottomLon: 0
   osmTerrainLeftLat: 0
   osmTerrainRightLat: 0
-  terrainMinIndent: 0
+  terrainMinIndent: 1.4648438
   minIndent: 8.7890625
   minSurrounding: 5
   maxIndentSurrounding: 50
   terrainY: 0
-  terrainDetailSplatX: 50
-  terrainDetailSplatY: 50
-  detailOffsetVec: {x: 50, y: 0, z: 50}
+  terrainDetailSplatX: 0.24414062
+  terrainDetailSplatY: 0.24414062
+  detailOffsetVec: {x: 0.24414062, y: 0, z: 0.24414062}
   raise: 0
   baseVector: {x: 0, y: 0, z: 0}
   mirrorCrossings: 1
   terrainNames:
   - All Terrains
+  - Terrain_(500.0, 0.0, 500.0)
+  - Terrain_(500.0, 0.0, 1000.0)
+  - Terrain_(0.0, 0.0, 500.0)
+  - Terrain_(0.0, 0.0, 1000.0)
+  - Terrain_0_0_8563ea5d-eda7-499c-a240-ec2aabe177ce
+  - Terrain_(500.0, 0.0, 0.0)
   terrainObjects:
   - {fileID: 0}
+  - {fileID: 611726701}
+  - {fileID: 808652470}
+  - {fileID: 953485208}
+  - {fileID: 1318422012}
+  - {fileID: 1607582689}
+  - {fileID: 2060947780}
   terrainSplatTextures:
   - Splat 1 - Grass ER
-  - Splat 2 - Grass&Rock ER
-  - Splat 3 - Grass ER
-  activeTerrain: {fileID: 0}
+  - Splat 2 - ground4_Diffuse
+  - Splat 3 - GrassRockyAlbedo
+  activeTerrain: {fileID: 1607582689}
   activeTerrainY: 0
   selectedTerrain: 0
   selectedRoadsOnly: 0
@@ -3804,8 +4049,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 0
-    height: 0
+    width: 500
+    height: 500
   surfaceObjects: []
   preserveTerrainFloat: 1
   terrainSmoothIndentDistance: 1
@@ -4017,6 +4262,7 @@ GameObject:
   - component: {fileID: 2060947778}
   - component: {fileID: 2060947780}
   - component: {fileID: 2060947779}
+  - component: {fileID: 2060947781}
   m_Layer: 0
   m_Name: Terrain_(500.0, 0.0, 0.0)
   m_TagString: Untagged
@@ -4081,3 +4327,45 @@ Terrain:
   m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
   m_GroupingID: 0
   m_AllowAutoConnect: 1
+--- !u!114 &2060947781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2060947777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 910771039, guid: f56d46228aee4734f9114056c53bb57e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  surfacevecs: []
+  tdataFloat: []
+  terrainData: {fileID: 15600000, guid: 57335b98cf603480396467faaa293f34, type: 2}
+  xStart: 0
+  zStart: 0
+  roadSurface: {fileID: 0}
+  surfaceMesh: {fileID: 0}
+  surfaceCollider: {fileID: 0}
+  terrainDataStored: []
+  terrainChanges: []
+  terrainTrees: []
+  detailInstances: []
+  detailInstanceStarts: 
+  surfaceObjects: []
+  terrainTestPoints: []
+  splatData: []
+  addedTrees: []
+  terrainHeightsBackup: []
+  terrainTreesBackup: []
+  terrainDetailBackup: []
+  terrainSplatBackup: []
+  detailInstanceStartsBackUp: 
+  heightmapFlag: 0
+  splatmapFlag: 0
+  treeFlag: 0
+  detailFlag: 0
+  terrainDone: 0
+  backupFlagNotification: 0
+  backupObject: {fileID: 0}
+  terrain: {fileID: 0}
