@@ -76,9 +76,9 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Open: 1
-    - _Pages: 5
+    - _Pages: 11
     - _Parallax: 0.02
-    - _Progress: 0
+    - _Progress: 2.36
     - _ProgressThreshold: 0
     - _Rows: 3
     - _SmoothnessTextureChannel: 0
