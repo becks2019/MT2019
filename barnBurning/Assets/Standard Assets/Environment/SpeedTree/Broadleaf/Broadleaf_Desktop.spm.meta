@@ -83,8 +83,8 @@ SpeedTreeImporter:
       name: Leaves_3_LOD2
     second: {fileID: 2100000, guid: 355b3169750599e4f957a9d54675c3fa, type: 2}
   serializedVersion: 6
-  mainColor: {r: 0.735849, g: 0.50656605, b: 0.28114986, a: 1}
-  hueVariation: {r: 1, g: 0.5, b: 0, a: 0.1}
+  mainColor: {r: 0.6509434, g: 0.43524843, b: 0.19958171, a: 1}
+  hueVariation: {r: 0.8490566, g: 0.522771, b: 0.20425417, a: 1}
   alphaTestRef: 0.33
   bestWindQuality: 4
   hasBillboard: 1
