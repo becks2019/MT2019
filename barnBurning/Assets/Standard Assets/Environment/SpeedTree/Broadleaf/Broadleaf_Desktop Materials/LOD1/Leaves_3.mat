@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Leaves_3
   m_Shader: {fileID: 14000, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: EFFECT_BUMP EFFECT_HUE_VARIATION GEOM_TYPE_LEAF
+  m_ShaderKeywords: EFFECT_BUMP GEOM_TYPE_LEAF
   m_LightmapFlags: 5
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 1
@@ -36,5 +36,5 @@ Material:
     - _Cutoff: 0.33
     - _WindQuality: 4
     m_Colors:
-    - _Color: {r: 0.8867924, g: 0.462207, b: 0, a: 1}
+    - _Color: {r: 0.5849056, g: 0.36208674, b: 0.11863652, a: 1}
     - _HueVariation: {r: 1, g: 0.5019608, b: 0, a: 0.972549}
