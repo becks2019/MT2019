@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/jogging.unity
+    guid: 8eabd99674914444dad8a464d4bda434
   m_configObjects: {}
