@@ -10,5 +10,6 @@ public class SceneSwitcher : MonoBehaviour {
     Debug.Log("Hallo");
     SceneManager.LoadScene(0);
     }
-    
+
+   
 }

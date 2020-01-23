@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 210709014}
   - component: {fileID: 210709013}
   - component: {fileID: 210709017}
+  - component: {fileID: 210709018}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -248,6 +249,19 @@ VideoPlayer:
   m_Looping: 0
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
+--- !u!114 &210709018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210709012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f911d8c48817d4164882ace8afa2f986, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  VideoPlayer: {fileID: 210709017}
 --- !u!1 &580334607
 GameObject:
   m_ObjectHideFlags: 0
