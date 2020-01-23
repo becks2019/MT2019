@@ -1953,7 +1953,7 @@ Transform:
   m_GameObject: {fileID: 1416161286}
   m_LocalRotation: {x: 0.50141305, y: -0.501413, z: 0.49858296, w: 0.49858305}
   m_LocalPosition: {x: -167.17, y: 90.03928, z: 384.17}
-  m_LocalScale: {x: 0.27574837, y: 0.24327, z: 0.19459207}
+  m_LocalScale: {x: 0.31759545, y: 0.24327, z: 0.19765252}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 28
@@ -2493,7 +2493,7 @@ MonoBehaviour:
       - 0
       globalNormalsAngle: 0
       flipNormals: 0
-    vertexPathUpToDate: 0
+    vertexPathUpToDate: 1
     vertexPathMaxAngleError: 0.3
     vertexPathMinVertexSpacing: 0.01
     showTransformTool: 1
@@ -2903,7 +2903,7 @@ PrefabInstance:
     - target: {fileID: 2300006, guid: 46fbe438016f1ef42a93a3237ba16514, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: b751358cb9cdb3d4d8e9930a680e783e, type: 2}
+      objectReference: {fileID: 2100000, guid: 6cff80e695697dd4bb7e37a7e8e185ad, type: 2}
     - target: {fileID: 2300008, guid: 46fbe438016f1ef42a93a3237ba16514, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
