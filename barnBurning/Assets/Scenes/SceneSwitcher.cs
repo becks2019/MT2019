@@ -7,8 +7,7 @@ public class SceneSwitcher : MonoBehaviour {
 
     public void OnTriggerEnter(Collider collider)
     {
-    Debug.Log("Hallo");
-    SceneManager.LoadScene(0);
+    SceneManager.LoadScene(2);
     }
 
    
