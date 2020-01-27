@@ -42,48 +42,91 @@ Das Stilmittel der Wiederholung (Mandarinenschälen, die immer wiederkehrende Su
 Hierbei gelangt man an einen Grabstein auf dem „SIE“ steht. Es wird dennoch, wie auch in der Kurzgeschichte, ein Interpretationsspielraum gewahrt. Befindet man sich kurz vor dem Grab, wird die Applikation nach fünf Sekunden von alleine beendet.
 
 Szene 2 Desk Scene: Materialien: Skybox - https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-4183
+
 Objekte: Schreibtisch - https://assetstore.unity.com/packages/3d/props/furniture/big-furniture-pack-7717  
+
 Kerze - https://assetstore.unity.com/packages/3d/environments/historic/modular-medieval-lanterns-85527  
+
 Obst - https://assetstore.unity.com/packages/3d/props/food/fruit-pack-80254 
+
 Sofa - https://assetstore.unity.com/packages/3d/props/furniture/archviz-sofa-pack-lite-95228 
+
 Schrank - https://assetstore.unity.com/packages/3d/props/furniture/pbr-old-cabinet-106249 
+
 Sideboard - https://assetstore.unity.com/packages/3d/props/furniture/chest-of-drawers-58835 
+
 Teppich - https://assetstore.unity.com/packages/3d/props/interior/free-rug-pack-118178 
+
 Stehlampe - https://assetstore.unity.com/packages/3d/props/interior/lamps-pack-19102 
+
 Stuhl - https://assetstore.unity.com/packages/3d/props/furniture/leather-chair-128788
+
 Buch - https://assetstore.unity.com/packages/3d/props/grimoire-style-book-3996 
+
 Audio: selber erstellt
 
-3. Szene Joggingweg: Terrain Tool: https://assetstore.unity.com/packages/2d/textures-materials/terrain-tools-sample-asset-pack-145808  Naturobjekte: https://assetstore.unity.com/packages/3d/environments/nature-starter-kit-2-52977
+
+3. Szene Joggingweg: Terrain Tool: https://assetstore.unity.com/packages/2d/textures-materials/terrain-tools-sample-asset-pack-145808
+Naturobjekte: https://assetstore.unity.com/packages/3d/environments/nature-starter-kit-2-52977
+
 Straße und Weg: https://assetstore.unity.com/packages/3d/environments/nature-starter-kit-2-52977
+
 Wohnhäuser: https://assetstore.unity.com/packages/3d/environments/urban/uk-terraced-houses-pack-free-63481
+
 Schienen: https://assetstore.unity.com/packages/3d/environments/railway-sleepers-95855
+
 Schranken: https://assetstore.unity.com/packages/3d/environments/roadways/vehicle-parking-lot-garage-gate-pbr-111423
+
 Gartenzaun & Briefkästen: https://assetstore.unity.com/packages/3d/props/exterior/free-stylized-garden-asset-145896
+
 Scheune 1, Pferdestall, Scheune 3, Scheune 4, Scheune 5: https://assetstore.unity.com/packages/3d/environments/historic/lowpoly-medieval-buildings-58289
+
 Maschendrahtzaun: https://assetstore.unity.com/packages/3d/chainlink-fences-73107
+
 Scheune 2: https://assetstore.unity.com/packages/3d/environments/historic/medieval-buildings-exteriors-72836
+
 Brunnen, Holzzaun: https://assetstore.unity.com/packages/3d/characters/village-houses-pack-63695
+
 Fass: https://assetstore.unity.com/packages/3d/environments/industrial/barrels-63623
+
 Zug: https://assetstore.unity.com/packages/3d/vehicles/freight-train-138867
+
 Grab: https://assetstore.unity.com/packages/3d/environments/graves-collection-3125
+
 Naturobjekte: https://assetstore.unity.com/packages/3d/environments/free-stylized-nature-environment-96371
+
 Fackel: https://assetstore.unity.com/packages/3d/props/interior/simple-torch-7275
+
 Leiter, Palette, Zaun: https://assetstore.unity.com/packages/3d/props/exterior/survival-village-props-free-59280#content
+
 Traktor: https://assetstore.unity.com/packages/3d/vehicles/land/farm-machinery-low-poly-tractor-and-planter-94533
+
 Standard Assets (Bäume, Gras, Fluss): https://assetstore.unity.com/packages/essentials/asset-packs/standard-assets-for-unity-2017-3-32351
+
 Skybox: https://assetstore.unity.com/packages/2d/textures-materials/sky/classic-skybox-24923
+
 Straßenlaterne: https://assetstore.unity.com/packages/3d/environments/urban/single-street-lamp-121728
+
 Licht am Bahnübergang: https://www.turbosquid.com/FullPreview/Index.cfm/ID/842371
+
 Pferd: https://www.turbosquid.com/FullPreview/Index.cfm/ID/810753
+
 Bullen: https://www.turbosquid.com/FullPreview/Index.cfm/ID/1393066
+
 Audio Zug: https://www.youtube.com/audiolibrary/soundeffects?ar=1580157019066&nv=1
+
 Audio Fluss: https://www.youtube.com/audiolibrary/soundeffects?ar=1580157019066&nv=1
+
 Audio Schritte: https://www.audiyou.de/beitrag/schritte-set-kies-und-schmutz-9989/
+
 Audio Pferd: https://www.audiyou.de/beitrag/pferdewiehern-6244/
+
 Audio Bullen: https://www.audiyou.de/beitrag/das-muhen-einer-kuh-5269/
+
 Audio Wind: https://www.youtube.com/audiolibrary/soundeffects?ar=1580157019066&nv=1
+
 Audio Blätter: https://www.youtube.com/audiolibrary/soundeffects?ar=1580157019066&nv=1
+
 
 Eigene Prefabs:
 - Universität
@@ -99,12 +142,20 @@ Eigene Prefabs:
 
 Mit folgenden Bilderquellen: 
 https://media.istockphoto.com/photos/metal-texture-picture-id183383044?k=6&m=183383044&s=612x612&w=0&h=l9fkuo4TrwCflfBGz1Y0auCoPoioj4NztsE4_TtgyX8=
+
 https://i.ebayimg.com/thumbs/images/g/YUgAAOSwvNddP0gk/s-l225.jpg
+
 https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Nussbaum_Holz.JPG/1280px-Nussbaum_Holz.JPG
+
 https://www.pngkit.com/png/full/483-4830202_clip-art-transparent-download-collection-of-running-woodford.png
+
 https://front.video.funke.press/p/106/sp/10600/thumbnail/entry_id/0_3pcfw68b/version/100012/width/412/height/232
 https://previews.123rf.com/images/kgtoh/kgtoh1001/kgtoh100102170/6233494-corrugado-superficie-armadura-metálica-con-textura-transparente-de-corrosión-.jpg
+
 https://www.schlau-grosshandel.de/medias/20712118-M-SQUARE-de-product-detail-format?context=bWFzdGVyfHByb2R1Y3RJbWFnZXN8NDI2NjU2fGltYWdlL2pwZWd8cHJvZHVjdEltYWdlcy9oMzkvaGEzLzg4NDkwNDc3ODE0MDYuanBnfDllN2Y1MTM4ZTc3ZmVjYWZjMGNiZWVjZGM2NDhjNDFmYmIzMTcyNDQ2ODA4Yjc0YWU2NTEwN2IxYTFjMzYzYjQ
+
 https://previews.123rf.com/images/marchello74/marchello741312/marchello74131200036/24165071-vieille-porte-d-entrée-en-bois-paris-france.jpg
+
 https://logodix.com/logo/701336.jpg
+
 https://image.freepik.com/foto-gratis/fondo-textura-madera_23-2147960309.jpg
