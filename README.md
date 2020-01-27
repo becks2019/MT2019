@@ -2,45 +2,49 @@
 Repository for Media Transformation University of Cologne 2019
 Gruppe 7
 Beatrice Inschakov (7339270)
+
 Elisabeth Becker (5965020)
+
 Lena Sobieray (7335241)
+
 Devina Leismann (7338363)
 
-Projektbeschreibung:
+
+<b>Projektbeschreibung:</b>
 Die vorliegende Projektarbeit beschäftigt sich mit dem Thema der medialen Transformation. Wie können Texte in Virtual Reality Anwendungen verwandelt werden und welche Aspekte spielen bei der Umsetzung eine besonders große Rolle? Wie kann das „kafkaeske Murakami-Gefühl“ transportiert werden? Dieses Projekt liefert Antworten auf diese und viele weitere Fragen. Die Umsetzung des Projekts erfolgte mit Unity (2019.2.13f1).
 Insgesamt ist die intermediale VR Anwendung in drei Hauptszenen eingeteilt, welche filmische Abschnitte und Gaming Aspekte aufweisen. Es werden außerdem viele direkte Zitate aus der Kurzgeschichte verwendet. Die gesamte Anwendung erlebt der/die UserIn aus Sicht des Ich-Erzählers in der First Person Perspective. 
 Es startet mit einer rein filmischen Introszene, welche durch die passende Musik eine düstere Stimmung erzeugt. Die dazu passende dunkle Farbgebung soll zusätzlich die Mystik der Geschichte bereits zu Beginn transportieren. Es wird Spannung und Neugier aufgebaut und durch kurze Zitate in die Geschichte eingeführt, ohne zu viel zu verraten. 
 <img src="https://github.com/becks2019/MT2019/blob/master/Szene1_Intro.png">
 
 Nach der Introszene wird der/die UserIn automatisch in das Arbeitszimmer des Ich-Erzählers geführt. Die Szenenübergänge werden in der gesamten Anwendung automatisch durch C#-Skripte ausgelöst. Im Arbeitszimmer wird der/die UserIn audiovisuell in die Geschichte eingeleitet. 
-![Alt text] (https://github.com/becks2019/MT2019/blob/master/Szene2_DeskScene.png)
+<img src="https://github.com/becks2019/MT2019/blob/master/Szene2_DeskScene.png">
 
 Der Text orientiert sich stark an der Originalfassung der Kurzgeschichte. Es wurde lediglich stark gekürzt, um bei dem/der UserIn weiterhin Spannung zu wahren. 
 Nach der Einführung in die Geschichte wird der Blick durch eine geführte Kamerafahrt auf eine Karte geleitet und dann automatisch in die Joggingszene weitergeleitet. Diese Szene weist einige spielästhetische Mittel auf. Es besteht die Möglichkeit sich frei zu bewegen und mit verschiedenen Gegenständen zu interagieren bzw. sich an die Umgebung anzupassen. Zu jedem Zeitpunkt kann in der Joggingszene die Applikation mit der Escape-Taste beendet werden. 
 Die Umsetzung der Szene basiert größtenteils auf Grundlage der Kurzgeschichte. Außerdem wurden in der Joggingszene einige Audiodateien eingebunden, um die Atmosphäre der Morgendämmerung aufzugreifen. Wind wird ständig im Hintergrund abgespielt sowie Schritte, wenn man sich bewegt. Zusätzlich hört man das Plätschern eines Flusses, Blätterrauschen, das Wiehern eines Pferdes und das Muhen von Kühen als auch einen vorbeifahrenden Zug, je nachdem wo man sich auf dem Weg befindet. Begleitet wird das Sichtfeld beim Spielen von einer Taschenlampe, die den Sichtbereich eingrenzt und die Morgendämmerung mehr hervorhebt. Der Stil der Szene ist herbstlich und naturgetreu. Auch hier werden Zitate aus der Kurzgeschichte aufgegriffen, indem sie auf Schildern abgebildet sind, welche vor den Scheunen stehen. Hauptsächlich sollte der/die SpielerIn sich trotzdem auf dem Weg fortbewegen, um alle Scheunen, Schilder und Audiodateien wahrzunehmen. 
 Vom Startpunkt aus muss man zunächst die Gleise mit den geöffneten Schranken überqueren, die sich geradeaus rechts aus Spielersicht befinden. 
-![Alt text] (https://github.com/becks2019/MT2019/blob/master/Szene3_Startpunkt.png)
+<img src="https://github.com/becks2019/MT2019/blob/master/Szene3_Startpunkt.png">
 
 Auf der linken Seiten befindet sich ein Schild und ein geschlossener eingezäunter Bereich, der vorerst nicht betreten werden kann. 
-![Alt text] (https://github.com/becks2019/MT2019/blob/master/Szene3_ZaunGeschlossen.png)
+<img src="https://github.com/becks2019/MT2019/blob/master/Szene3_ZaunGeschlossen.png">
 
 Widmet man sich wieder der Joggingroute, so passiert man eine Universität mit Sportplatz und einen Fluss, welche auch in der Kurzgeschichte erwähnt werden. Um mehr Vielfalt und eigene Ideen in dem Projekt zu verwirklichen, wurde ein kleiner Park auf dem Weg eingebaut, welcher selbstmodellierte Objekte enthält.
-![Alt text] (https://github.com/becks2019/MT2019/blob/master/Szene3_Park.png)
+<img src="https://github.com/becks2019/MT2019/blob/master/Szene3_Park.png">
 
 Anschließend gelangt man zur ersten Scheune, die mit einem weiteren Schild samt Zitat aus der Kurzgeschichte ausgestattet ist. Hinter der ersten Scheune befindet sich ein Wald, der durchquert werden muss, um zur zweiten Scheune zu gelangen.
-![Alt text] (https://github.com/becks2019/MT2019/blob/master/Szene3_Scheune1.png)
+<img src="https://github.com/becks2019/MT2019/blob/master/Szene3_Scheune1.png">
 
 An der zweiten Scheune wird man mit dem Wiehern eines Pferdes empfangen sowie mit einem weiteren Zitat. Setzt man den Weg fort, so erreicht man die Zwillingsscheunen und zwei weitere Zitate. Da sich hinter den Scheunen eine Weide mit Kühen befindet, gibt es auch hier eine Audioeinspielung. Nach den Zwillingsscheunen erreicht man auf der Route die fünfte und letzte Scheune, welche mit einem Pepsi-Schild versehen ist. Auch dies wurde aus der Kurzgeschichte aufgegriffen. Der Joggingweg endet vorerst an einer geschlossenen Bahnschranke, vor welcher man einen Moment warten muss, bis der Zug vorbeigefahren ist. An dieser Stelle wird der/ die UserIn in der freien Bewegung eingeschränkt.
-![Alt text] (https://github.com/becks2019/MT2019/blob/master/Szene3_BahnschrankenGeschlossen.png)
+<img src="https://github.com/becks2019/MT2019/blob/master/Szene3_BahnschrankenGeschlossen.png">
 
 Nach Überquerung der Gleise gelangt man ans letzte Schild des Weges, welches darauf hinweisen soll, dass die Strecke wiederholt werden soll. Dafür biegt man links ab und folgt der Straße durch das Wohngebiet. Wenn man auf der linken Seite die geöffneten Bahnschranken entdeckt, befindet man sich wieder am Startpunkt des Joggingwegs.
-![Alt text] (https://github.com/becks2019/MT2019/blob/master/Szene3_WiederholungsSchild.png)
+<img src="https://github.com/becks2019/MT2019/blob/master/Szene3_WiederholungsSchild.png">
 
 Das Stilmittel der Wiederholung (Mandarinenschälen, die immer wiederkehrende Suche nach der abbrennenden Scheune) wird insofern aufgegriffen, dass der/die UserIn den Joggingweg mindestens einmal durchlaufen muss, um den Zaun automatisch zu öffnen und ans Ziel gelangen zu können. Da die Route einmal abgelaufen wurde, wird der zuvor geschlossene Bereich zugänglich gemacht, indem sich der Zaun öffnet.
-![Alt text] (https://github.com/becks2019/MT2019/blob/master/Szene3_ZaunGeoeffnet.png)
+<img src="https://github.com/becks2019/MT2019/blob/master/Szene3_ZaunGeoeffnet.png">
 
 Hierbei gelangt man an einen Grabstein auf dem „SIE“ steht. Es wird dennoch, wie auch in der Kurzgeschichte, ein Interpretationsspielraum gewahrt. Befindet man sich kurz vor dem Grab, wird die Applikation nach fünf Sekunden von alleine beendet.
-![Alt text] (https://github.com/becks2019/MT2019/blob/master/Szene3_Grab.png)
+<img src="https://github.com/becks2019/MT2019/blob/master/Szene3_Grab.png">
 
 
 Szene 2 Desk Scene: Materialien: Skybox - https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-4183
