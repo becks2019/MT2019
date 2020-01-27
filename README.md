@@ -19,36 +19,36 @@ Es startet mit einer rein filmischen Introszene, welche durch die passende Musik
 <br><br>
 <img src="https://github.com/becks2019/MT2019/blob/master/Szene1_Intro.png">
 <br><br>
-Nach der Introszene wird der/die UserIn automatisch in das Arbeitszimmer des Ich-Erzählers geführt. Die Szenenübergänge werden in der gesamten Anwendung automatisch durch C#-Skripte ausgelöst. Im Arbeitszimmer wird der/die UserIn audiovisuell in die Geschichte eingeleitet.<br>
+Nach der Introszene wird der/die UserIn automatisch in das Arbeitszimmer des Ich-Erzählers geführt. Die Szenenübergänge werden in der gesamten Anwendung automatisch durch C#-Skripte ausgelöst. Im Arbeitszimmer wird der/die UserIn audiovisuell in die Geschichte eingeleitet.<br><br>
 <img src="https://github.com/becks2019/MT2019/blob/master/Szene2_DeskScene.png">
-<br>
+<br><br>
 Der Text orientiert sich stark an der Originalfassung der Kurzgeschichte. Es wurde lediglich stark gekürzt, um bei dem/der UserIn weiterhin Spannung zu wahren. 
 Nach der Einführung in die Geschichte wird der Blick durch eine geführte Kamerafahrt auf eine Karte geleitet und dann automatisch in die Joggingszene weitergeleitet. Diese Szene weist einige spielästhetische Mittel auf. Es besteht die Möglichkeit sich frei zu bewegen und mit verschiedenen Gegenständen zu interagieren bzw. sich an die Umgebung anzupassen. Zu jedem Zeitpunkt kann in der Joggingszene die Applikation mit der Escape-Taste beendet werden. 
 Die Umsetzung der Szene basiert größtenteils auf Grundlage der Kurzgeschichte. Außerdem wurden in der Joggingszene einige Audiodateien eingebunden, um die Atmosphäre der Morgendämmerung aufzugreifen. Wind wird ständig im Hintergrund abgespielt sowie Schritte, wenn man sich bewegt. Zusätzlich hört man das Plätschern eines Flusses, Blätterrauschen, das Wiehern eines Pferdes und das Muhen von Kühen als auch einen vorbeifahrenden Zug, je nachdem wo man sich auf dem Weg befindet. Begleitet wird das Sichtfeld beim Spielen von einer Taschenlampe, die den Sichtbereich eingrenzt und die Morgendämmerung mehr hervorhebt. Der Stil der Szene ist herbstlich und naturgetreu. Auch hier werden Zitate aus der Kurzgeschichte aufgegriffen, indem sie auf Schildern abgebildet sind, welche vor den Scheunen stehen. Hauptsächlich sollte der/die SpielerIn sich trotzdem auf dem Weg fortbewegen, um alle Scheunen, Schilder und Audiodateien wahrzunehmen. 
-Vom Startpunkt aus muss man zunächst die Gleise mit den geöffneten Schranken überqueren, die sich geradeaus rechts aus Spielersicht befinden. <br>
+Vom Startpunkt aus muss man zunächst die Gleise mit den geöffneten Schranken überqueren, die sich geradeaus rechts aus Spielersicht befinden. <br><br>
 <img src="https://github.com/becks2019/MT2019/blob/master/Szene3_Startpunkt.png">
-<br>
-Auf der linken Seiten befindet sich ein Schild und ein geschlossener eingezäunter Bereich, der vorerst nicht betreten werden kann. <br>
+<br><br>
+Auf der linken Seiten befindet sich ein Schild und ein geschlossener eingezäunter Bereich, der vorerst nicht betreten werden kann. <br><br>
 <img src="https://github.com/becks2019/MT2019/blob/master/Szene3_ZaunGeschlossen.png">
-<br>
-Widmet man sich wieder der Joggingroute, so passiert man eine Universität mit Sportplatz und einen Fluss, welche auch in der Kurzgeschichte erwähnt werden. Um mehr Vielfalt und eigene Ideen in dem Projekt zu verwirklichen, wurde ein kleiner Park auf dem Weg eingebaut, welcher selbstmodellierte Objekte enthält.<br>
+<br><br>
+Widmet man sich wieder der Joggingroute, so passiert man eine Universität mit Sportplatz und einen Fluss, welche auch in der Kurzgeschichte erwähnt werden. Um mehr Vielfalt und eigene Ideen in dem Projekt zu verwirklichen, wurde ein kleiner Park auf dem Weg eingebaut, welcher selbstmodellierte Objekte enthält.<br><br>
 <img src="https://github.com/becks2019/MT2019/blob/master/Szene3_Park.png">
-<br>
-Anschließend gelangt man zur ersten Scheune, die mit einem weiteren Schild samt Zitat aus der Kurzgeschichte ausgestattet ist. Hinter der ersten Scheune befindet sich ein Wald, der durchquert werden muss, um zur zweiten Scheune zu gelangen.<br>
+<br><br>
+Anschließend gelangt man zur ersten Scheune, die mit einem weiteren Schild samt Zitat aus der Kurzgeschichte ausgestattet ist. Hinter der ersten Scheune befindet sich ein Wald, der durchquert werden muss, um zur zweiten Scheune zu gelangen.<br><br>
 <img src="https://github.com/becks2019/MT2019/blob/master/Szene3_Scheune1.png">
-<br>
-An der zweiten Scheune wird man mit dem Wiehern eines Pferdes empfangen sowie mit einem weiteren Zitat. Setzt man den Weg fort, so erreicht man die Zwillingsscheunen und zwei weitere Zitate. Da sich hinter den Scheunen eine Weide mit Kühen befindet, gibt es auch hier eine Audioeinspielung. Nach den Zwillingsscheunen erreicht man auf der Route die fünfte und letzte Scheune, welche mit einem Pepsi-Schild versehen ist. Auch dies wurde aus der Kurzgeschichte aufgegriffen. Der Joggingweg endet vorerst an einer geschlossenen Bahnschranke, vor welcher man einen Moment warten muss, bis der Zug vorbeigefahren ist. An dieser Stelle wird der/ die UserIn in der freien Bewegung eingeschränkt.<br>
+<br><br>
+An der zweiten Scheune wird man mit dem Wiehern eines Pferdes empfangen sowie mit einem weiteren Zitat. Setzt man den Weg fort, so erreicht man die Zwillingsscheunen und zwei weitere Zitate. Da sich hinter den Scheunen eine Weide mit Kühen befindet, gibt es auch hier eine Audioeinspielung. Nach den Zwillingsscheunen erreicht man auf der Route die fünfte und letzte Scheune, welche mit einem Pepsi-Schild versehen ist. Auch dies wurde aus der Kurzgeschichte aufgegriffen. Der Joggingweg endet vorerst an einer geschlossenen Bahnschranke, vor welcher man einen Moment warten muss, bis der Zug vorbeigefahren ist. An dieser Stelle wird der/ die UserIn in der freien Bewegung eingeschränkt.<br><br>
 <img src="https://github.com/becks2019/MT2019/blob/master/Szene3_BahnschrankenGeschlossen.png">
-<br>
-Nach Überquerung der Gleise gelangt man ans letzte Schild des Weges, welches darauf hinweisen soll, dass die Strecke wiederholt werden soll. Dafür biegt man links ab und folgt der Straße durch das Wohngebiet. Wenn man auf der linken Seite die geöffneten Bahnschranken entdeckt, befindet man sich wieder am Startpunkt des Joggingwegs.<br>
+<br><br>
+Nach Überquerung der Gleise gelangt man ans letzte Schild des Weges, welches darauf hinweisen soll, dass die Strecke wiederholt werden soll. Dafür biegt man links ab und folgt der Straße durch das Wohngebiet. Wenn man auf der linken Seite die geöffneten Bahnschranken entdeckt, befindet man sich wieder am Startpunkt des Joggingwegs.<br><br>
 <img src="https://github.com/becks2019/MT2019/blob/master/Szene3_WiederholungsSchild.png">
-<br>
-Das Stilmittel der Wiederholung (Mandarinenschälen, die immer wiederkehrende Suche nach der abbrennenden Scheune) wird insofern aufgegriffen, dass der/die UserIn den Joggingweg mindestens einmal durchlaufen muss, um den Zaun automatisch zu öffnen und ans Ziel gelangen zu können. Da die Route einmal abgelaufen wurde, wird der zuvor geschlossene Bereich zugänglich gemacht, indem sich der Zaun öffnet.<br>
+<br><br>
+Das Stilmittel der Wiederholung (Mandarinenschälen, die immer wiederkehrende Suche nach der abbrennenden Scheune) wird insofern aufgegriffen, dass der/die UserIn den Joggingweg mindestens einmal durchlaufen muss, um den Zaun automatisch zu öffnen und ans Ziel gelangen zu können. Da die Route einmal abgelaufen wurde, wird der zuvor geschlossene Bereich zugänglich gemacht, indem sich der Zaun öffnet.<br><br>
 <img src="https://github.com/becks2019/MT2019/blob/master/Szene3_ZaunGeoeffnet.png">
-<br>
-Hierbei gelangt man an einen Grabstein auf dem „SIE“ steht. Es wird dennoch, wie auch in der Kurzgeschichte, ein Interpretationsspielraum gewahrt. Befindet man sich kurz vor dem Grab, wird die Applikation nach fünf Sekunden von alleine beendet.<br>
+<br><br>
+Hierbei gelangt man an einen Grabstein auf dem „SIE“ steht. Es wird dennoch, wie auch in der Kurzgeschichte, ein Interpretationsspielraum gewahrt. Befindet man sich kurz vor dem Grab, wird die Applikation nach fünf Sekunden von alleine beendet.<br><br>
 <img src="https://github.com/becks2019/MT2019/blob/master/Szene3_Grab.png">
-<br>
+<br><br>
 
 Szene 2 Desk Scene: Materialien: Skybox - https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-4183
 
