@@ -4,18 +4,24 @@ using UnityEngine;
 
 public class DoorScript : MonoBehaviour
 {
+
+    //Dieses Skript startet die Animation, mit der der Zaun zur Grabstelle geöffnet wird
+    //Die Animation wird erst durch Betreten eines BoxColliders ausgeführt
 	private Animator _animator;
 
     // Start is called before the first frame update
     void Start()
     {
+		//ruft den Animator auf
 		_animator = GetComponent<Animator>();
         
     }
 
-    void OnTriggerEnter(Collider other)
+	//bei Betreten des Colliders wird folgende Funktion ausgeführt
+	void OnTriggerEnter(Collider other)
 	{
-			_animator.SetBool("open", true);
+		//der Parameter open im Animator wird auf true gesetzt, die Animation wird gestartet
+		_animator.SetBool("open", true);
 	}
 
     // Update is called once per frame
