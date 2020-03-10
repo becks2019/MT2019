@@ -4,11 +4,10 @@ using UnityEngine;
 
 public class GateScript : MonoBehaviour
 {
-	//Dieses Skript startet die Animation, mit der die Schranke am Bahnübergang geöffnet wird
+	//Dieses Skript startet die Animation, mit der u.a. die Schranke am Bahnübergang geöffnet wird
 	//Die Animation wird erst durch Betreten eines BoxColliders ausgeführt
 	private Animator _animator;
 
-	// Start is called before the first frame update
 	void Start()
 	{
         //ruft den Animator auf
@@ -23,9 +22,4 @@ public class GateScript : MonoBehaviour
 		_animator.SetBool("open", true);
 	}
 
-	// Update is called once per frame
-	void Update()
-	{
-
-	}
 }

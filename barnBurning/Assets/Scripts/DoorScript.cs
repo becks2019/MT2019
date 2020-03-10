@@ -9,7 +9,6 @@ public class DoorScript : MonoBehaviour
     //Die Animation wird erst durch Betreten eines BoxColliders ausgeführt
 	private Animator _animator;
 
-    // Start is called before the first frame update
     void Start()
     {
 		//ruft den Animator auf
@@ -24,9 +23,4 @@ public class DoorScript : MonoBehaviour
 		_animator.SetBool("open", true);
 	}
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
