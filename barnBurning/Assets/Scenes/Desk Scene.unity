@@ -154,7 +154,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 16ec6efed8df064478f604f26c5c0142, type: 3}
       propertyPath: m_Name
-      value: orange
+      value: Orange
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 16ec6efed8df064478f604f26c5c0142, type: 3}
       propertyPath: m_LocalPosition.x
@@ -166,7 +166,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 16ec6efed8df064478f604f26c5c0142, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 386.033
+      value: 386.082
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 16ec6efed8df064478f604f26c5c0142, type: 3}
       propertyPath: m_LocalRotation.x
@@ -315,7 +315,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: beaec58dba29dea48acd77235061579e, type: 3}
       propertyPath: m_Name
-      value: Leather_Chair
+      value: Sessel
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: beaec58dba29dea48acd77235061579e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -480,7 +480,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1627497564551428, guid: eded3844e29c2ec40bc278e2cbd31279, type: 3}
       propertyPath: m_Name
-      value: Paint_01
+      value: Bild
       objectReference: {fileID: 0}
     - target: {fileID: 4029276965778842, guid: eded3844e29c2ec40bc278e2cbd31279, type: 3}
       propertyPath: m_LocalPosition.x
@@ -645,7 +645,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: f4913c71dc349024a820d1b5f4fb8416, type: 3}
       propertyPath: m_Name
-      value: standing_lamp2
+      value: Stehlampe
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f4913c71dc349024a820d1b5f4fb8416, type: 3}
       propertyPath: m_LocalPosition.x
@@ -867,7 +867,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 6e1e22a487a6f4d42be5a2254e69ab1e, type: 3}
       propertyPath: m_Name
-      value: Mesh_Pillows
+      value: Kissen
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6e1e22a487a6f4d42be5a2254e69ab1e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -925,6 +925,14 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.7483
       objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 6e1e22a487a6f4d42be5a2254e69ab1e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 6e1e22a487a6f4d42be5a2254e69ab1e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.36
+      objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 6e1e22a487a6f4d42be5a2254e69ab1e, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -937,14 +945,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 13d1ac1bbf4e4c3469e6d5984e2bfc93, type: 2}
-    - target: {fileID: 400004, guid: 6e1e22a487a6f4d42be5a2254e69ab1e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.64
-      objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: 6e1e22a487a6f4d42be5a2254e69ab1e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.36
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e1e22a487a6f4d42be5a2254e69ab1e, type: 3}
 --- !u!1001 &705380981
@@ -956,7 +956,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a02c28d1606a1274db9bb36b6fb1b642, type: 3}
       propertyPath: m_Name
-      value: Mesh_Sofa2
+      value: Sofa
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a02c28d1606a1274db9bb36b6fb1b642, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1029,7 +1029,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100028, guid: 0ccd472cba226de41b565ef0ab256ed8, type: 3}
       propertyPath: m_Name
-      value: Chest of drawers (1)
+      value: Sideboard
       objectReference: {fileID: 0}
     - target: {fileID: 400028, guid: 0ccd472cba226de41b565ef0ab256ed8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1194,7 +1194,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 4b55f9e77a7e2b64c90fa45a0543815a, type: 3}
       propertyPath: m_Name
-      value: Globe
+      value: Globus
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4b55f9e77a7e2b64c90fa45a0543815a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1367,7 +1367,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1370723301690648, guid: 42612f8b6c0dce8468648f3f08db6d96, type: 3}
       propertyPath: m_Name
-      value: Candle3 1
+      value: Kerze
       objectReference: {fileID: 0}
     - target: {fileID: 4203199286425600, guid: 42612f8b6c0dce8468648f3f08db6d96, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1457,7 +1457,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 03121fe10b69e5940b4e209e1857a792, type: 3}
       propertyPath: m_Name
-      value: Apple
+      value: Apfel
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 03121fe10b69e5940b4e209e1857a792, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1534,7 +1534,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 53d9329720b6c3e47ac7ea64089995c9, type: 3}
       propertyPath: m_Name
-      value: tukueB01
+      value: Coachtisch
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 53d9329720b6c3e47ac7ea64089995c9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1603,11 +1603,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: ef43c661d6c71a94eaab26c1a922a248, type: 3}
       propertyPath: m_Name
-      value: orange_half
+      value: halbe Orange
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ef43c661d6c71a94eaab26c1a922a248, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -176.215
+      value: -175.993
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ef43c661d6c71a94eaab26c1a922a248, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1615,7 +1615,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ef43c661d6c71a94eaab26c1a922a248, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 385.665
+      value: 385.726
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ef43c661d6c71a94eaab26c1a922a248, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1672,7 +1672,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: de0107e962c842648ba2a4838b207b11, type: 3}
       propertyPath: m_Name
-      value: Desk07
+      value: Schreibtisch
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: de0107e962c842648ba2a4838b207b11, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2371,7 +2371,7 @@ PrefabInstance:
     - target: {fileID: 4820851769216444526, guid: 89dd74c61103b7644ab2dd9d26606ea0,
         type: 3}
       propertyPath: m_Name
-      value: DoorV6
+      value: "T\xFCr"
       objectReference: {fileID: 0}
     - target: {fileID: 4820851769216218190, guid: 89dd74c61103b7644ab2dd9d26606ea0,
         type: 3}
@@ -2725,7 +2725,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1949193786786396, guid: 46d2992933c6968418c33e934904d7ad, type: 3}
       propertyPath: m_Name
-      value: Rug2
+      value: Teppich
       objectReference: {fileID: 0}
     - target: {fileID: 4259941037088760, guid: 46d2992933c6968418c33e934904d7ad, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3022,7 +3022,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 46fbe438016f1ef42a93a3237ba16514, type: 3}
       propertyPath: m_Name
-      value: cabinet
+      value: "gro\xDFer Schrank"
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 46fbe438016f1ef42a93a3237ba16514, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3108,7 +3108,7 @@ PrefabInstance:
     - target: {fileID: 1513048085887787012, guid: 63a89b2a236934702bedf11077eb167a,
         type: 3}
       propertyPath: m_Name
-      value: Book_HistoryOfArt (1)
+      value: Buch
       objectReference: {fileID: 0}
     - target: {fileID: 1507382046201287286, guid: 63a89b2a236934702bedf11077eb167a,
         type: 3}
