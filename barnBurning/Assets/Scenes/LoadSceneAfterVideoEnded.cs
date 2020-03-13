@@ -6,13 +6,13 @@ using UnityEngine.Video;
 
 public class LoadSceneAfterVideoEnded : MonoBehaviour
 {
-    public VideoPlayer VideoPlayer; // Drag & Drop the GameObject holding the VideoPlayer component
-    void Start()
+    public VideoPlayer VideoPlayer; // Videpplayer deklarieren
+    void Start() //Videoplayer starten
     {
-        VideoPlayer.loopPointReached += LoadScene;
+        VideoPlayer.loopPointReached += LoadScene; // Wenn Video beendet ist, lädt Szene
     }
-    void LoadScene(VideoPlayer vp)
+    void LoadScene(VideoPlayer vp) // Funktion zum Szene laden
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(1); // Angabe, welche Szene geladen wird 
     }
 }
