@@ -12,6 +12,11 @@ Lena Sobieray (7335241)
 Devina Leismann (7338363)
 
 Projektorganisation mit SCRUM: https://trello.com/b/sUGqgkYX/media-transformation
+Die Kommunikation und Organisation der verschiedenen Sprints erfolgte über Trello. 
+Alle relevanten Inhalte (Protokolle, neue To Dos etc.) wurden über verschiedene Karten auf Trello organisiert.
+Vorallem der aktuelle Stand der einzelnen Szenen wurde über die Karte "Progress" abgebildet.
+Die SCRUM Methode eigenete sich optimal für die Organisation des Projekts, weil somit immer alle Gruppenmitglieder auf dem aktuellen 
+Stand waren und alle Sprints im Blick hatten.
 
 
 <b>Projektbeschreibung:</b><br>
