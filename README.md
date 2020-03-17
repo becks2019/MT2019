@@ -11,6 +11,8 @@ Lena Sobieray (7335241)
 
 Devina Leismann (7338363)
 
+Projektorganisation mit SCRUM: https://trello.com/b/sUGqgkYX/media-transformation
+
 
 <b>Projektbeschreibung:</b><br>
 Die vorliegende Projektarbeit beschäftigt sich mit dem Thema der medialen Transformation. Wie können Texte in Virtual Reality Anwendungen verwandelt werden und welche Aspekte spielen bei der Umsetzung eine besonders große Rolle? Wie kann das „kafkaeske Murakami-Gefühl“ transportiert werden? Dieses Projekt liefert Antworten auf diese und viele weitere Fragen. Die Umsetzung des Projekts erfolgte mit Unity (2019.2.13f1).
